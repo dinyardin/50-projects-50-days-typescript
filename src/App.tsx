@@ -1,11 +1,12 @@
 import React from 'react'
 import Preview from './components/Preview/Preview'
 import './App.css'
+import Carousel from './components/Carousel/Carousel'
 
 function App() {
     return (
         <div className="App">
-            <Preview />
+            <Carousel />
         </div>
     )
 }
