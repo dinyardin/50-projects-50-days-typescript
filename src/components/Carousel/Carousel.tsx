@@ -5,12 +5,14 @@ import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
 import Project1 from '../Projects/project1/Project1'
 import Project2 from '../Projects/project2/Project2'
+import Project3 from '../Projects/project3/Project3'
 
 function Carousel() {
     const [projectNumber, setProjectNumber] = useState<number>(0)
     const [projects, setProjects] = useState<any[]>([
         <Project1 />,
         <Project2 />,
+        <Project3 />,
     ])
 
     const incrementProjectNumber = () => {

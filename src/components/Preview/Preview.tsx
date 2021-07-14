@@ -1,5 +1,4 @@
 import React from 'react'
-import './Preview.css'
 
 interface Prop {
     project: any
