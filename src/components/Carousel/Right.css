@@ -1,0 +1,10 @@
+.right {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vw;
+    width: 60px;
+    color: white;
+    cursor: pointer;
+}
